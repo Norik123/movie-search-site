@@ -1,0 +1,126 @@
+/* header */
+
+header.MuiPaper-root.MuiPaper-elevation.MuiPaper-elevation4.MuiAppBar-root.MuiAppBar-colorPrimary.MuiAppBar-positionStatic.css-hip9hq-MuiPaper-root-MuiAppBar-root {
+  background-color: #19c0d270;
+  color: black;
+}
+
+input.MuiInputBase-input.css-yz9k0d-MuiInputBase-input {
+  border: 1px solid black;
+}
+
+.css-1orzy9s {
+  width: auto !important;
+}
+
+/* main */
+
+.pageButtonsBox {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.pageButtons {
+  margin: 3%;
+}
+
+.moveTitle {
+  margin: 3%;
+  padding: 1%;
+  text-align: center;
+  font-family: monospace;
+  font-size: 30px;
+  border: 1px solid black;
+  border-radius: 100px;
+}
+
+/* movieListBox */
+
+.ImageListItem {
+  margin: 1%;
+  padding: 2%;
+  height: 400px;
+  width: 280px;
+  border-radius: 20px;
+}
+
+.ImageListItem:hover {
+  background-color: #19c0d270;
+}
+
+.Poster {
+  height: 300px;
+  width: 200px;
+  border-radius: 10px;
+  box-shadow: 2px 3px 10px black;
+}
+
+/* filmCard */
+
+.FilmCardBox {
+  margin: 1%;
+  padding: 1%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.InnerFilmCardBox {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.BigPoster {
+  margin: 1%;
+  height: 750px;
+  width: 1200px;
+  box-shadow: 2px 3px 10px black;
+}
+
+.LittlePoster {
+  margin: 1%;
+  height: 650px;
+  width: 450px;
+  box-shadow: 2px 3px 10px black;
+}
+
+@media screen and (max-width: 1441px) {
+  .BigPoster {
+    height: 750px;
+    width: 1200px;
+  }
+}
+
+@media screen and (max-width: 1025px) {
+  .BigPoster {
+    width: 850px;
+    height: 550px;
+  }
+}
+
+@media screen and (max-width: 769px) {
+  .BigPoster {
+    width: 500px;
+    height: 300px;
+  }
+  .LittlePoster {
+    height: 300px;
+    width: 200px;
+  }
+}
+
+@media screen and (max-width: 426px) {
+  .BigPoster {
+    width: 360px;
+    height: 250px;
+  }
+  .LittlePoster {
+    height: 200px;
+    width: 130px;
+  }
+}

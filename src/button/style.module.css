@@ -1,0 +1,15 @@
+.myButton {
+  margin: 1%;
+  padding: 10px 26px;
+  background-color: #fff;
+  border: 1px solid black;
+  border-radius: 100px;
+  font-size: 18px;
+  color: #000;
+  cursor: pointer;
+}
+
+.myButton:hover {
+  background-color: red;
+  color: #fff;
+}
